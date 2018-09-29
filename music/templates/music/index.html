@@ -1,0 +1,23 @@
+{% extends 'music/base.html' %}
+
+{% block body %}
+    {% for album in all_albums %}
+        <a href="{{album.id}}"> {{ album.title }}</a>
+        <br>
+    {% endfor %}
+
+    <button id="hello">hello</button>
+    <div id="world"></div>
+
+
+    <script>
+        $('#hello').click(function () {
+            //alert('ok');
+
+            $.get('pata/', {}, function (data) {
+                $('#world').html(data);
+            });
+        });
+
+    </script>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'music/base.html' %}
+
+{% block body %}
+    <form action="{% url 'music:favorite' album.id %}" method="post">
+        {% csrf_token %}
+
+        {% for song in album.song_set.all %}
+            <input type="radio" id="song{{ forloop.counter }}" name="song" value="{{ song.id }}" />
+            <li>{{ song.song_title }} - {{ song.file_type }}</li>
+
+            {% if song.if_fvrt %}
+                favourited
+            {% endif %}
+            <br><br>
+        {% endfor %}
+
+        <input type="submit" value="save">
+    </form>
+{% endblock %}

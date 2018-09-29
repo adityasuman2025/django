@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="db" uuid="e5a81a2b-2b2b-436c-a420-53bc40562ced">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="db [2]" uuid="8e4bde24-1b34-47b9-a1ae-83b87ad98626">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="db [3]" uuid="c9f9b93c-4c45-496e-b608-6e80d15a74b3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="db [4]" uuid="0b88ec20-5298-44c2-a2af-6f8ae57cb67e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="Django default" uuid="5cd8e77a-dc1b-4a13-917f-ca6ceaac8d08">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <auth-required>false</auth-required>
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
